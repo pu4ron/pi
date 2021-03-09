@@ -69,7 +69,8 @@ then
     echo ""
     echo ""
     sleep 2
-
+else
+    echo ""
 fi 
 
 sudo rm -R /home/pi-star/pi
