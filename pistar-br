@@ -57,12 +57,12 @@ then
     echo ""
     sleep 2
 
-    echo " "                   >> "$dir" 
-    echo "[Lookup]"            >> "$dir"
-    echo "Service=QRZ"         >> "$dir"
-    echo "popupWidth=800"      >> "$dir"
-    echo "popupHeight=700"     >> "$dir"
-    echo " "                   >> "$dir"
+    echo " "                        >> "$dir" 
+    sudo echo "[Lookup]"            >> "$dir"
+    sudo echo "Service=QRZ"         >> "$dir"
+    sudo echo "popupWidth=800"      >> "$dir"
+    sudo echo "popupHeight=700"     >> "$dir"
+    echo " "                        >> "$dir"
 
     echo "* Regras adicionadas."
     echo ""
@@ -71,7 +71,7 @@ then
 
 fi 
 
-sudo rm /home/pi-star/pistar-br
+sudo rm /home/pi-star/pi/pistar-br
 
 sudo mount -o remount,ro /
 echo -e "* \033[01;32mFim! \033[01;37m"
