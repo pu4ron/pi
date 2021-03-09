@@ -49,33 +49,28 @@ sleep 2
 
 if [ -f "$dir" ]
 
-then
-
-    sudo mount -o remount,rw /
-    
+then 
     echo ""
     echo "* Add regras..."
     echo ""
     sleep 2
 
-    echo " "                   >> "$dir" 
-    echo "[Lookup]"            >> "$dir"
-    echo "Service=QRZ"         >> "$dir"
-    echo "popupWidth=800"      >> "$dir"
-    echo "popupHeight=700"     >> "$dir"
-    echo " "                   >> "$dir"
+    echo " "                   >> sudo "$dir" 
+    echo "[Lookup]"            >> sudo "$dir"
+    echo "Service=QRZ"         >> sudo "$dir"
+    echo "popupWidth=800"      >> sudo "$dir"
+    echo "popupHeight=700"     >> sudo "$dir"
+    echo " "                   >> sudo "$dir"
 
     echo "* Regras adicionadas."
     echo ""
     echo ""
     sleep 2
-else
-    echo ""
+    
 fi 
 
 sudo rm -R /home/pi-star/pi
 
-sudo mount -o remount,ro /
 echo -e "* \033[01;32mFim! \033[01;37m"
 sleep 2
 echo ""
