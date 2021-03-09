@@ -1,5 +1,7 @@
  #!/bin/bash
 
+sudo -i 
+
 ################################################
 #                                              #
 #        Por: Ronualdo JSA - PU4RON            #
@@ -33,8 +35,6 @@ case "$REPLY" in
     * ) exit 0 ;;
      
 esac
-
-sudo -i
 
 daystamp(){
         date +"%d.%m.%y"
