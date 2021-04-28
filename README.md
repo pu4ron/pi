@@ -1,7 +1,8 @@
 # pi
-Script para adicionar a opção de ver os dados dos usuários pelo QRZ.com
+Script que adiciona "QRZ.com" como opção primária para ver as informações dos usuários(radioamadores).
 
-No pi-star: Expert / SSH access
+
+# Install
 
 rpi-rw
 
