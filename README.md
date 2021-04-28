@@ -1,6 +1,5 @@
-# pi
-Script que adiciona "QRZ.com" como opção primária para ver as informações dos usuários(radioamadores).
 
+* Script que adiciona "QRZ.com" como opção primária para ver as informações dos usuários(radioamadores).
 
 # Install
 
