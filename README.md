@@ -9,7 +9,7 @@ git clone https://github.com/pu4ron/pi.git
 
 cd pi
 
-sudo chmod 777 pistar-br
+sudo chmod 755 pistar-br
 
 sudo chmod +x pistar-br
 
